@@ -1,0 +1,16 @@
+$base-color: #000cff;
+body {
+    color: lighten($base-color, 10%)
+}
+ul{
+    list-style:none;
+    li{
+        float:left;
+        a{
+            display: block;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
